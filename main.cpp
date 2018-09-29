@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
     // Set application info
     app.setOrganizationName("CoreBox");
     app.setApplicationName("CoreTerminal");
-    app.setWindowIcon(QIcon(":/icons/CoreTerminal.svg"));
+    app.setWindowIcon(QIcon(":/icons/coreterminal.svg"));
 
     QCommandLineParser parser;
     parser.addHelpOption();

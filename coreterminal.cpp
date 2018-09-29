@@ -20,7 +20,7 @@ along with this program; if not, see {http://www.gnu.org/licenses/}. */
 coreterminal::coreterminal(QWidget *parent) : QTermWidget(0, parent)
 {
     setWindowTitle("CoreTerminal");
-    setWindowIcon(QIcon(":/icons/CoreTerminal.svg"));
+    setWindowIcon(QIcon(":/icons/coreterminal.svg"));
 
     // set window size
     int x = static_cast<int>(Utilities::screensize().width()  * .8);

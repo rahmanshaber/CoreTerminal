@@ -1,7 +1,7 @@
 # CoreTerminal
 An app of CoreApps family.CoreTerminal is a terminal emulator.
 
-<img src="CoreTerminal.png" width="500">
+<img src="coreterminal.png" width="500">
 
 ### Download
 
