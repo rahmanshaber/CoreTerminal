@@ -34,7 +34,7 @@ along with this program; if not, see {http://www.gnu.org/licenses/}. */
 #include <QString>
 #include <QIcon>
 
-#include <cprime/utilities.h>
+#include <cprime/themefunc.h>
 
 
 class coreterminal : public QTermWidget

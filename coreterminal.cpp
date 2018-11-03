@@ -23,8 +23,8 @@ coreterminal::coreterminal(QWidget *parent) : QTermWidget(0, parent)
     setWindowIcon(QIcon(":/icons/coreterminal.svg"));
 
     // set window size
-    int x = static_cast<int>(Utilities::screensize().width()  * .8);
-    int y = static_cast<int>(Utilities::screensize().height()  * .7);
+    int x = static_cast<int>(CPrime::InfoFunc::screenSize().width()  * .8);
+    int y = static_cast<int>(CPrime::InfoFunc::screenSize().height()  * .7);
     this->resize(x, y);
 
     // Terminal Opacity
@@ -88,8 +88,8 @@ coreterminal::coreterminal(QWidget *parent) : QTermWidget(0, parent)
 coreterminal::coreterminal(const QString &workDir, QWidget *parent) : QTermWidget(0, parent)
 {
     // set window size
-    int x = static_cast<int>(Utilities::screensize().width()  * .8);
-    int y = static_cast<int>(Utilities::screensize().height()  * .7);
+    int x = static_cast<int>(CPrime::InfoFunc::screenSize().width()  * .8);
+    int y = static_cast<int>(CPrime::InfoFunc::screenSize().height()  * .7);
     this->resize(x, y);
 
     // Terminal Opacity
@@ -151,8 +151,8 @@ coreterminal::coreterminal(const QString &workDir, QWidget *parent) : QTermWidge
 coreterminal::coreterminal(const QString &workDir, const QString &command, QWidget *parent) : QTermWidget(0, parent)
 {
     // set window size
-    int x = static_cast<int>(Utilities::screensize().width()  * .8);
-    int y = static_cast<int>(Utilities::screensize().height()  * .7);
+    int x = static_cast<int>(CPrime::InfoFunc::screenSize().width()  * .8);
+    int y = static_cast<int>(CPrime::InfoFunc::screenSize().height()  * .7);
     this->resize(x, y);
 
     // Terminal Opacity
